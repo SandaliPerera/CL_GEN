@@ -1,0 +1,147 @@
+html body{
+	border:1px solid transparent;
+	margin:0;
+	padding:0;
+	background-image: url(../images/gray.jpg);
+	height:100%;
+	background-size:100%;
+	background-position:center;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navbar{
+	margin: 0 ;
+	padding: 0;
+	background-color:#000;
+	text-align:center;
+	width: 100%;
+	height:75px;
+	position: fixed;
+	z-index: 1;
+	opacity:0.75;
+	
+	
+}
+.navbar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+	float:right;
+}
+
+.navbar input[type="submit"]
+{
+   border: none;
+	outline: none;
+    height: 40px;
+	width : 100px;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+	margin-left: auto;
+    margin-right: 20px;
+	display:block;
+	cursor: pointer;
+}
+.navbar input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: transparent;
+    color: #c8cccf;
+}
+
+
+.navbar a:hover
+{
+    color: #ffc107;
+}
+.wrap{
+	margin-top: 75px;
+	position: fixed;
+	width:200px;
+	height: 100%;
+	background:#333333 ;
+	padding: 0px;
+	font-size:12px;
+
+}
+
+
+.wrap ul {
+	margin: 50px 10px 0px -25px;
+	margin-left: -25px;
+}
+.wrap ul li{
+	
+	padding: 20px 10px 10px 0px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(0,0,0,0.05);
+	list-style: none;
+	overflow:hidden;
+	cursor: pointer;
+	display:block;
+}
+.wrap ul li a{
+	color: #bdb8d7;
+	display: block;
+	text-decoration: none;
+
+}
+.wrap ul li:hover{
+	background: #554c54	
+}
+
+.wrap ul li:hover a{
+	color: #fff;
+}
+.wrap ul ul li:hover{
+	background: #333333	
+}
+.wrap ul ul li:hover a{
+	color: #fff;
+}
+.wrap ul ul{
+	display:none;
+}
+.wrap ul ul li{
+	padding: 10px 10px 10px 0px;
+}
+
+.wrap ul li:hover ul{
+	display:block;
+	cursor: pointer;
+	
+}
+.content{
+	margin-top: 80px;
+	padding: 0;
+	margin-left: 220px;
+	margin-right:20px;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  
+}
+
+
+.container {
+  padding: 5px 16px 5px 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+ 
+  background-color: white;
+  margin-left:8px;
+  
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+a{
+	text-decoration:none;
+}

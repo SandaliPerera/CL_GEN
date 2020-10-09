@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Categories</title>
+<link rel="stylesheet" href="../../css/view.css " type="text/css">
+<link type="text/css" rel="stylesheet" href="../../css/main.css">
+<link type="text/css" rel="stylesheet" href="../../css/categories.css">
+</head>
+<body>
+		<div class="navbar">  
+            <ul>
+                <li>
+                    <form name="logout" action="login.html" method="POST">
+						<input type="submit" value="Logout" id="submit" name="submit">
+                    </form>
+                </li>
+            </ul>
+        </div>
+		
+		 <div class="wrap">
+
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                
+               
+                <li><a href="users.html">Manage users </a>
+					<ul>
+						<li><a href="student.html">Students</a></li>
+						<li><a href="teachers.html"> Teachers</a></li>
+						<li><a href="staff.html">Office staff </a></li>
+					</ul>
+				</li>
+                <li><a href="categories.html">Manage Categories</a>
+				<ul>
+						<li><a href="sports.html">Sports</a></li>
+						<li><a href="societies.html"> Societies</a></li>
+						<li><a href="aesthetics.html">Aesthetics </a></li>
+						<li><a href="educations.html">Educational </a></li>
+					</ul>
+				</li>
+
+            </ul>
+        </div>
+		
+		<div class="content">
+		
+			<h1>Categories</h1>
+			
+			
+			<br>
+			<hr>
+			
+		
+  
+		
+		
+			<div class="card">
+			<a href="sports.html">
+				  <div class="container">
+				  <form>
+					<button type="submit" formaction="add_sport.html">Add Sport</button>
+				</form>
+				<br>
+					<h2><b>Sports</b></h2>
+					<p>Number</p>
+				
+				  </div>
+			</a>
+			<a href="societies.html">
+				  <div class="container">
+				   <form>
+					<button type="submit" formaction="add_society.html">Add Society</button>
+				</form>
+				<br>
+					<h2><b>Society</b></h2>
+					<p>Number</p>
+				  </div>
+			</a>
+			<a href="aesthetics.html">
+				  <div class="container">
+				   <form>
+					<button type="submit" formaction="add_aesthetic.html">Add Aesthetic Category</button>
+				</form>
+				<br>
+					<h2><b>Aesthetic</b></h2>
+					<p>Number</p>
+				  </div>
+				</a>
+			<a href="educations.html">
+				  <div class="container">
+				   <form>
+					<button type="submit" formaction="add_education.html">Add Education Category</button>
+				</form>
+				<br>
+					<h2><b>Education</b></h2>
+					<p>Number</p>
+				  </div>
+				 </a>
+			
+			  
+			</div>
+			
+		</div>
+		
+</body>
+</html>

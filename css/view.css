@@ -1,0 +1,38 @@
+table{
+	width:100%;
+	border: 1px solid white;
+	margin-bottom:10px;
+	margin-top:10px;
+	text-align:center;
+}
+tr:first-child{
+	background:#a9a9a9;
+}
+
+tr:nth-child(even){
+	background:#ebecf0;
+}
+th, td {
+	height:35px;
+	border: 1px solid white;
+}
+
+button , .button{
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 10px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.login input[type="text"]
+{
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
